@@ -2,16 +2,12 @@ class ContaBancaria {
     var nomeTitular: String = ""
     private var saldo = 0.0
 
-    fun depositar(valor: Double): Double {
-        val saldoDeposito =  valor + saldo
-        saldo + saldoDeposito
-        return saldoDeposito
+    fun depositar(valor: Double){
+        saldo += valor
     }
-    fun saque(valor: Double): Double {
-        val saldoSaque = saldo - valor
-        saldo - saldoSaque
+    fun saque(valor: Double){
 
-        return saldoSaque
+        saldo -= valor
     }
 
     fun verificar(): Double{

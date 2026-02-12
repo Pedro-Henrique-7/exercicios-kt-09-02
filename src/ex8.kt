@@ -1,9 +1,10 @@
 fun main (){
     val contaBancaria = ContaBancaria()
     contaBancaria.nomeTitular = "Pedro"
-    print(contaBancaria.nomeTitular.toString())
-    contaBancaria.depositar(10.0)
+    println(contaBancaria.nomeTitular)
     println("Seu saldo " + contaBancaria.verificar())
-    contaBancaria.saque(5.0)
-    println("Saldo após deposito: " + contaBancaria.verificar())
+    contaBancaria.depositar(1000.0)
+    println("Seu saldo após deposito: " + contaBancaria.verificar())
+    contaBancaria.saque(500.0)
+    println("Saldo após saque: " + contaBancaria.verificar())
 }
