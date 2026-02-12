@@ -1,3 +1,5 @@
+package model
+
 class ContaBancaria {
     var nomeTitular: String = ""
     private var saldo = 0.0

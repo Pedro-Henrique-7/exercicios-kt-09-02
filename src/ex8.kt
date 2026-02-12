@@ -1,3 +1,5 @@
+import model.ContaBancaria
+
 fun main (){
     val contaBancaria = ContaBancaria()
     contaBancaria.nomeTitular = "Pedro"

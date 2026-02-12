@@ -1,3 +1,5 @@
+package model
+
 class Gerente: Funcionario(){
     var nomeGerente : String = "Jonas"
 

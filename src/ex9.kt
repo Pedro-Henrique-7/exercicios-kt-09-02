@@ -1,3 +1,6 @@
+import model.Funcionario
+import model.Gerente
+
 fun main() {
     val funcionario = Funcionario()
     funcionario.nome = "Pedro"

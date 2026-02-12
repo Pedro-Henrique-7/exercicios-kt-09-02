@@ -1,3 +1,5 @@
+import model.Pessoa
+
 fun main(){
     val pessoa = Pessoa()
     pessoa.nome = "Fran"
